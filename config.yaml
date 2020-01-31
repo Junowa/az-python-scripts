@@ -1,0 +1,7 @@
+certificates:
+  sonarqube-dev:
+    vault_url: https://coreauto-keyvault-dev.vault.azure.net/
+    secret_name: sonarqube-dev0854863a-d060-4059-95a8-6ab9c70cf122
+    private_key_localpath: /tmp/sonar.priv
+    public_key_localpath: /tmp/sonar.pub
+    service_name: sonarqube
